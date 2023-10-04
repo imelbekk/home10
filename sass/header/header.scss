@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header_nav{
+    max-width: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 50px;
+    ul{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        .home{
+            color: #118DA8;
+        }
+        a{
+            font-size: 17px;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    span{
+        display: none;
+    }
+}
+
+.header{
+    background-color: #191919;
+    padding: 40px 50px;
+    display: flex;
+    gap: 60px;
+    .header_right-box{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h6{
+            font-size: 70px;
+            letter-spacing: 3.2px;
+        }
+        .header_text{
+            display: flex;
+            gap: 25px;
+            letter-spacing: 3.2px;
+            span{
+                font-size: 75px;
+            }
+            p{
+                font-size: 80px;
+            }
+        }
+        .listen{
+            p{
+                font-size: 15px;
+            }
+            margin-top: 90px;
+            .imges{
+                display: flex;
+                gap: 17px;
+            }
+        }
+    }
+ }
+
+@media (max-width:447px) {
+    .header_nav{
+        padding: 25px 26px;
+        gap: 0px;
+        img{
+            width: 100px;
+        }
+        ul{
+            display: none;
+        }
+        span{
+            display: block;
+            color: #fff ;
+        }
+    }
+    .header{
+        flex-direction: column;
+        .header_right-box{
+            h6{
+                font-size: 40px;
+            }
+            .header_text{
+                gap: 10px;
+                span{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 40px;
+                }
+            }
+            .listen{
+                margin-top: 40px;
+                .imges{
+                    img{
+                        width: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:448px) and (max-width:769px) {
+    .header_nav{
+        padding: 30px;
+        img{
+            width: 150px;
+        }
+        ul{
+            display: none;
+        }
+        span{
+            display: block;
+            color: #fff;
+            font-size: 25px;
+        }
+    }
+    .header{
+        flex-direction: column;
+        .header_right-box{
+            h6{
+                font-size: 40px;
+            }
+            .header_text{
+                span{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 40px;
+                }
+            }
+            .listen{
+                margin-top: 30px;
+                .imges{
+                    img{
+                        width: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:770px) and (max-width:990px) {
+    .header_nav{
+        padding: 40px;
+    }
+    .header{
+        padding: 20px;
+        img{
+            width: 45%;
+            height: 50%;
+        }
+        .header_right-box{
+            h6{
+                font-size: 50px;
+            }
+            .header_text{
+                span{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 40px;
+                }
+            }
+            .imges{
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .header_nav{
+        padding: 40px;
+    }
+    .header{
+        padding: 20px;
+        img{
+            width: 45%;
+            height: 50%;
+        }
+        .header_right-box{
+            h6{
+                font-size: 50px;
+            }
+            .header_text{
+                span{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 40px;
+                }
+            }
+            .imges{
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
