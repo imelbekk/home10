@@ -91,4 +91,51 @@ section .section_box button {
   section .section_box .section_right-box button {
     padding: 10px;
   }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  section .section_top {
+    gap: 30px;
+  }
+  section .section_top h6 {
+    font-size: 20px;
+  }
+  section .section_top button {
+    font-size: 12px;
+  }
+  section .section_box {
+    background-color: #191919;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+  }
+  section .section_box img {
+    width: 100%;
+  }
+  section .section_box .section_right-box h6 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  section .section_box .section_right-box p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  section .section_box .section_right-box button {
+    padding: 15px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  section .section_top h6 {
+    font-size: 50px;
+  }
+  section .section_right-box h6 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  section .section_right-box p {
+    font-size: 25px;
+    line-height: 20px;
+  }
+  section .section_right-box button {
+    padding: 15px;
+  }
 }/*# sourceMappingURL=section.css.map */

@@ -102,3 +102,62 @@ section {
         }
     }
 }
+
+@media (min-width:448px) and (max-width:769px) {
+    section{
+        .section_top{
+            gap: 30px;
+            h6{
+                font-size: 20px;
+            }
+            button{
+                font-size: 12px;
+            }
+        }
+        .section_box{
+            background-color: #191919;
+            flex-direction: column;
+            padding: 0;
+            gap: 20px;
+            img{
+                width: 100%;
+            }   
+            .section_right-box{
+                h6{
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                button{
+                    padding: 15px;
+                }
+            }       
+        }
+    }
+}
+
+@media (min-width:770px) and (max-width:990px) {
+    section{
+        .section_top{
+            h6{
+                font-size: 50px;
+            }
+        }
+        .section_right-box{
+            h6{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p{
+                font-size: 25px;
+                line-height: 20px;
+            }
+            button{
+                padding: 15px;
+            }
+        }  
+    }
+}
