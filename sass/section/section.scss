@@ -1,0 +1,104 @@
+section {
+    display: flex;
+    padding: 93px 70px;
+    flex-direction: column;
+    gap: 63px;
+    background-color: #191919;
+
+    .section_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h6 {
+            font-size: 64px;
+            color: #fff;
+        }
+    }
+
+    .section_box {
+        padding: 40px 40px;
+        background-color: #000;
+        display: flex;
+        color: #fff;
+        gap: 53px;
+        border-radius: 32px;
+        button {
+            padding: 0 16px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            border: none;
+            border-radius: 6px;
+            background: #191919;
+        }
+
+        h5 {
+            color: #118DA8;
+            font-family: DM Sans;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 27px;
+            margin-top: 48px;
+        }
+
+        h6 {
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 70.4px;
+            letter-spacing: 2.56px;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.70);
+            font-family: DM Sans;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            margin-top: 28px;
+        }
+
+        button {
+            padding: 12px 20px;
+        }
+    }
+}
+
+@media (max-width:447px) {
+    section{
+        .section_top{
+            gap: 30px;
+            h6{
+                font-size: 12px;
+            }
+            button{
+                font-size: 12px;
+            }
+        }
+        .section_box{
+            background-color: #191919;
+            flex-direction: column;
+            padding: 0;
+            gap: 20px;
+            img{
+                width: 100%;
+            }   
+            .section_right-box{
+                h6{
+                    font-size: 30px;
+                    line-height: 50px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+                button{
+                    padding: 10px;
+                }
+            }       
+        }
+    }
+}
